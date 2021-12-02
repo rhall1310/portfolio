@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Basic text highligting */
+
+.neon {
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em #b026ff;
+}
+
+/* Reflection and hover effect */
+
+.neon-glow {
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em #b026ff;
+  position: relative;
+}
+
+.neon-glow:hover {
+  text-shadow: 0 0 0.525em hsl(0 0% 100% / 0.3), 0 0 0.845em #e1adff;
+}
+
+.neon-glow::before {
+  pointer-events: none;
+  content: '';
+  position: absolute;
+  background: #b026ff;
+  top: 45%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: perspective(1em) rotateX(40deg) scale(0.8, 0.35);
+  filter: blur(1em);
+  opacity: 0.7;
+}
+
+.neon-glow::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 2em 0.6em white;
+  opacity: 0;
+  background-color: #e1adff;
+  z-index: -1;
+}
+
+.neon-glow:hover::before,
+.neon-glow:focus::before {
+  opacity: 1;
+  transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+}
+.neon-glow:hover::after,
+.neon-glow:focus::after {
+  opacity: 1;
+}
+
+/* Neon borders */
+
+.neon-box {
+  border-color: #b026ff;
+  box-shadow: inset 0 0 0.5em 0 #e1adff, 0 0 0.5em 0 #e1adff;
+}
+
+/* Neon glow with borders */
+
+.neon-glow-box {
+  border-color: #b026ff;
+  box-shadow: inset 0 0 0.5em 0 #e1adff, 0 0 0.5em 0 #e1adff;
+  position: relative;
+  color: white;
+  background-color: #6b00a8;
+}
+
+.neon-glow-box:hover {
+  text-shadow: 0 0 0.525em hsl(0 0% 100% / 0.3), 0 0 0.845em #e1adff;
+  color: #white;
+  box-shadow: 0 0 0.4em #b026ff, 0 0 0.6em #e1adff, 0 0 0.8em white;
+  background-color: #6b00a8;
+  border-color: #e1adff;
+}
+
+.neon-glow-box::before {
+  pointer-events: none;
+  content: '';
+  position: absolute;
+  background: #b026ff;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+  filter: blur(1em);
+  opacity: 0.7;
+}
+
+.neon-glow-box::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 2em 0.5em #b026ff;
+  opacity: 0;
+  background-color: #b026ff;
+  z-index: -1;
+  transition: opacity 100ms linear;
+}
+
+.neon-glow-box:hover::before,
+.neon-glow-box:focus::before {
+  opacity: 1;
+}
+.neon-glow-box:hover::after,
+.neon-glow-box:focus::after {
+  opacity: 1;
+}
