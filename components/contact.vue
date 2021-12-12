@@ -11,7 +11,7 @@
           cols="30"
           rows="10"
           placeholder="Your message"
-          class="border-2 neon-box bg-transparent rounded-lg focus:border-neon-light"
+          class="border-2 neon-box bg-transparent rounded-lg focus:border-neon-light text-white"
         ></textarea>
       </div>
       <div
@@ -22,14 +22,14 @@
           name="email"
           id="email"
           placeholder="Your email"
-          class="border-2 neon-box bg-transparent rounded-lg"
+          class="border-2 neon-box bg-transparent rounded-lg focus:border-neon-light text-white"
         />
         <input
           type="text"
           name="name"
           id="name"
           placeholder="Your name"
-          class="border-2 neon-box bg-transparent rounded-lg"
+          class="border-2 neon-box bg-transparent rounded-lg focus:border-neon-light text-white"
         />
         <button type="submit" class="neon-glow-box border-2 rounded-lg w-24">
           Send

@@ -1,5 +1,5 @@
 <template>
-  <div class="neon-glow text-neon-light cursor-pointer text-xl">
+  <div>
     <i :class="icon"></i>
   </div>
 </template>
