@@ -3,7 +3,7 @@
     class="bg-gray-800 p-2 w-full text-center rounded-lg justify-center items-center flex flex-col"
   >
     <h2 class="neon text-neon-light text-lg font-bold pb-2">Contact</h2>
-    <form action="" class="flex align-middle">
+    <form action="" class="flex flex-col align-middle gap-4">
       <div>
         <textarea
           name="msg"

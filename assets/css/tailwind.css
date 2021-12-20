@@ -53,7 +53,8 @@
 }
 .neon-glow:hover::after,
 .neon-glow:focus::after {
-  opacity: 1;
+  opacity: 0.1;
+  border-radius: 1em;
 }
 
 /* Neon borders */
@@ -79,7 +80,7 @@
   text-shadow: 0 0 0.525em hsl(0 0% 100% / 0.3), 0 0 0.845em #e1adff;
   color: #white;
   box-shadow: 0 0 0.4em #b026ff, 0 0 0.6em #e1adff, 0 0 0.8em white;
-  background-color: #6b00a8;
+  background-color: #b026ff;
   border-color: #e1adff;
 }
 
