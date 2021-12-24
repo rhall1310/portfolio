@@ -2,43 +2,69 @@
   <div class="bg-gray-900">
     <Header class="fixed top-0 w-screen h-12" />
     <div class="relative">
-      <div id="info" class="flex flex-col pt-12 md:flex-row">
+      <div id="info" class="flex flex-col pt-12 md:flex-row md:pl-6">
         <div
           id="sidebar-about"
-          class="md:w-1/4 md:order-2 p-2 bg-gray-800 my-2"
+          class="md:w-1/3 lg:1/4 md:order-2 p-2 bg-gray-800 mb-2 md: pr-6 rounded-bl-xl"
         >
+          <h1 class="text-neon-light neon text-3xl text-center py-2">
+            Rob Hall
+          </h1>
           <img
             src="~/assets/images/IMG_20210727_155113873.jpg"
             alt=""
-            class="rounded-xl max-h-20 float-left pr-1"
+            class="rounded-3xl max-h-20 float-left pr-1"
           />
           <p class="text-white text-justify">
-            I'm a front end web dev and designer who is passionate about Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Soluta rerum
-            corporis neque dolor iusto recusandae cum assumenda maxime facilis
-            qui!
+            I'm a front end web dev and designer from the UK. I enjoy building
+            intuitive and attractive UIs and layouts. I've been coding since I
+            was in school and My goal is to make the internet more functional
+            and better looking. I am also passionate about web accessibility and
+            ensuring that as many people as possible can enjoy your website.
+          </p>
+          <p class="text-white text-justify pt-2">
+            I'm an organised and professional worker who is used to managing my
+            own projects and delivering to deadlines
           </p>
         </div>
 
-        <div id="main-about" class="p-2 md:w-3/4">
-          <img src="" alt="" />
-          <p class="text-white">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-            ducimus debitis quisquam excepturi dolorem soluta, iure sit
-            recusandae vero eaque voluptatibus ipsum dolorum itaque consequatur
-            beatae asperiores? Provident, officiis voluptates! Aperiam laborum
-            unde architecto minus modi? Eos distinctio non harum ex dolorem
-            aspernatur minus, tempore nobis sunt odit illo dolores.
+        <div id="main-about" class="p-2 md:w-2/3 lg:3/4">
+          <h2 class="neon text-neon-light underline font-bold text-2xl py-2">
+            Skillset
+          </h2>
+          <p class="text-white text-justify">
+            I am experienced in the core front end languages of HTML, CSS and
+            Javascript. I have also worked extensively with Vue, Svelte and
+            various CSS frameworks including Bootstrap and Tailwind.
           </p>
+
+          <p class="text-white pt-4 pb-2 text-justify">
+            I also have extensive experience with creating Wordpress websites,
+            including using the ecommerce plugin WooCommerce to create
+            storefronts. I'm always lookign to learn more and further develop my
+            skills.
+          </p>
+          <div class="neon-box border-2 my-2"></div>
+          <div
+            class="flex gap-4 py-2 text-center flex-wrap justify-between px-3"
+          >
+            <Icons
+              v-for="skill in skillset"
+              :key="skill"
+              :icon="skill"
+              class="neon text-neon-light text-5xl hover:text-pink-50"
+            />
+          </div>
+          <div class="neon-box border-2 my-2"></div>
         </div>
       </div>
       <h2
-        class="neon text-neon-light underline text-center font-bold text-2xl pb-2"
+        class="neon text-neon-light underline text-center font-bold text-2xl pb-2 md:py-8"
         id="projects"
       >
         Projects
       </h2>
-      <div class="flex flex-wrap flex-row">
+      <div class="flex flex-wrap flex-row mb-5">
         <Project
           v-for="project in projects"
           :key="project.index"
@@ -52,6 +78,8 @@
       </div>
 
       <Contact id="contact" />
+
+      <Footer />
     </div>
   </div>
 </template>
@@ -75,16 +103,29 @@ export default {
           img: 'pothole_reporter.png',
           code: 'https://github.com/rhall1310/pothole-reporter',
           link: 'https://pothole-reporter-rh1310-dev.netlify.app/',
-          icons: ['fab fa-html5', 'fab fa-js'],
+          icons: [
+            'fab fa-html5',
+            'fab fa-js',
+            'fab fa-vuejs',
+            'fab fa-bootstrap',
+          ],
         },
         {
-          title: 'Pure CSS',
-          text: 'A website built with pure CSS and HTML to demonstrate how much is possible without touching javascript at all',
-          img: 'pothole_reporter.png',
+          title: 'Placeholder',
+          text: 'A placeholder project',
+          img: 'svelte_weather.png',
           code: 'https://github.com/rhall1310/pothole-reporter',
           link: 'https://pothole-reporter-rh1310-dev.netlify.app/',
-          icons: ['fab fa-html5', 'fab fa-css3'],
+          icons: ['fab fa-html5', 'fab fa-js'],
         },
+      ],
+      skillset: [
+        'fab fa-html5',
+        'fab fa-js',
+        'fab fa-css3',
+        'fab fa-vuejs',
+        'fab fa-bootstrap',
+        'fab fa-wordpress',
       ],
     }
   },
