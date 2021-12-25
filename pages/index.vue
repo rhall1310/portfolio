@@ -15,14 +15,14 @@
             alt=""
             class="rounded-3xl max-h-20 float-left pr-1"
           />
-          <p class="text-white text-justify">
+          <p class="text-white text-justify px-1">
             I'm a front end web dev and designer from the UK. I enjoy building
             intuitive and attractive UIs and layouts. I've been coding since I
             was in school and My goal is to make the internet more functional
             and better looking. I am also passionate about web accessibility and
             ensuring that as many people as possible can enjoy your website.
           </p>
-          <p class="text-white text-justify pt-2">
+          <p class="text-white text-justify px-1 py-3">
             I'm an organised and professional worker who is used to managing my
             own projects and delivering to deadlines
           </p>
@@ -32,18 +32,12 @@
           <h2 class="neon text-neon-light underline font-bold text-2xl py-2">
             Skillset
           </h2>
-          <p class="text-white text-justify">
+          <p class="text-white text-justify py-2">
             I am experienced in the core front end languages of HTML, CSS and
             Javascript. I have also worked extensively with Vue, Svelte and
             various CSS frameworks including Bootstrap and Tailwind.
           </p>
 
-          <p class="text-white pt-4 pb-2 text-justify">
-            I also have extensive experience with creating Wordpress websites,
-            including using the ecommerce plugin WooCommerce to create
-            storefronts. I'm always lookign to learn more and further develop my
-            skills.
-          </p>
           <div class="neon-box border-2 my-2"></div>
           <div
             class="flex gap-4 py-2 text-center flex-wrap justify-between px-3"
@@ -56,15 +50,22 @@
             />
           </div>
           <div class="neon-box border-2 my-2"></div>
+
+          <p class="text-white pt-4 text-justify">
+            I also have extensive experience with creating Wordpress websites,
+            including using the ecommerce plugin WooCommerce to create
+            storefronts. I'm always lookign to learn more and further develop my
+            skills.
+          </p>
         </div>
       </div>
       <h2
-        class="neon text-neon-light underline text-center font-bold text-2xl pb-2 md:py-8"
+        class="neon text-neon-light underline text-center font-bold text-2xl py-8"
         id="projects"
       >
         Projects
       </h2>
-      <div class="flex flex-wrap flex-row mb-5">
+      <div class="flex flex-wrap flex-row mb-5 justify-center md:gap-5">
         <Project
           v-for="project in projects"
           :key="project.index"
