@@ -5,7 +5,7 @@
       <div id="info" class="flex flex-col pt-12 md:flex-row md:pl-6">
         <div
           id="sidebar-about"
-          class="md:w-1/3 lg:1/4 md:order-2 p-2 bg-gray-800 mb-2 md: pr-6 rounded-bl-xl"
+          class="md:w-1/3 lg:1/4 md:order-2 p-2 bg-gray-800 mb-2 md: pr-6 md:rounded-bl-xl"
         >
           <h1 class="text-neon-light neon text-3xl text-center py-2">
             Rob Hall
