@@ -2,10 +2,10 @@
   <div class="bg-gray-900">
     <Header class="fixed top-0 w-screen h-12" />
     <div class="relative">
-      <div id="info" class="flex flex-col pt-12 md:flex-row md:pl-6">
+      <div id="info" class="flex flex-col pt-12 md:flex-row px-1 lg:px-20">
         <div
           id="sidebar-about"
-          class="md:w-1/3 lg:1/4 md:order-2 p-2 bg-gray-800 mb-2 md: pr-6 md:rounded-bl-xl"
+          class="md:w-1/3 lg:1/4 md:order-2 p-2 bg-gray-800 mb-2 md: pr-6 md:rounded-bl-xl md:rounded-br-xl"
         >
           <h1 class="text-neon-light neon text-3xl text-center py-2">
             Rob Hall
@@ -112,11 +112,11 @@ export default {
           ],
         },
         {
-          title: 'Placeholder',
-          text: 'A placeholder project',
-          img: 'svelte_weather.png',
-          code: 'https://github.com/rhall1310/pothole-reporter',
-          link: 'https://pothole-reporter-rh1310-dev.netlify.app/',
+          title: 'CSS Only',
+          text: 'A simple static site built with CSS and HTML only to demonstrate responsive design principles',
+          img: 'css_only.png',
+          code: 'https://github.com/rhall1310/CSS-Only',
+          link: 'https://rhall1310.github.io/CSS-Only/',
           icons: ['fab fa-html5', 'fab fa-js'],
         },
       ],
