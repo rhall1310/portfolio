@@ -5,6 +5,7 @@ html {
 
 body {
   overflow-x: hidden;
+  font-family: DejaVu Sans Mono, monospace;
 }
 
 /* width */

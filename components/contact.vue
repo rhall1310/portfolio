@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-gray-800 m-2 shadow-2xl p-2 w-12/12 text-center rounded-lg justify-center items-center flex flex-col md:w-3/5 md:m-auto"
+    class="bg-gray-800 m-2 shadow-2xl p-2 w-12/12 text-center rounded-lg justify-center items-center flex flex-col md:w-3/5 lg:w-3/6 md:m-auto"
   >
     <h2 class="neon text-neon-light text-2xl font-bold pb-2">Contact</h2>
     <form

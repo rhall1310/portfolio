@@ -5,7 +5,7 @@
       <div id="info" class="flex flex-col pt-12 md:flex-row px-1 lg:px-20">
         <div
           id="sidebar-about"
-          class="md:w-1/3 lg:1/4 md:order-2 p-2 bg-gray-800 mb-2 md: pr-6 md:rounded-bl-xl md:rounded-br-xl"
+          class="md:w-1/3 lg:1/4 md:order-2 p-2 bg-gray-800 my-4 md: pr-6 md:rounded-xl"
         >
           <h1 class="text-neon-light neon text-3xl text-center py-2">
             Rob Hall
@@ -54,7 +54,7 @@
           <p class="text-white pt-4 text-justify">
             I also have extensive experience with creating Wordpress websites,
             including using the ecommerce plugin WooCommerce to create
-            storefronts. I'm always lookign to learn more and further develop my
+            storefronts. I'm always looking to learn more and further develop my
             skills.
           </p>
         </div>
@@ -117,7 +117,7 @@ export default {
           img: 'css_only.png',
           code: 'https://github.com/rhall1310/CSS-Only',
           link: 'https://rhall1310.github.io/CSS-Only/',
-          icons: ['fab fa-html5', 'fab fa-js'],
+          icons: ['fab fa-html5', 'fab fa-css3'],
         },
       ],
       skillset: [
