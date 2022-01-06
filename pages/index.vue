@@ -2,25 +2,30 @@
   <div class="bg-gray-900">
     <Header class="fixed top-0 w-screen h-12" />
     <div class="relative">
-      <div id="info" class="flex flex-col pt-12 md:flex-row px-1 lg:px-20">
+      <div id="info" class="flex flex-col pt-12 md:flex-row md:px-1 lg:px-20">
         <div
           id="sidebar-about"
-          class="md:w-1/3 lg:1/4 md:order-2 p-2 bg-gray-800 my-4 md: pr-6 md:rounded-xl"
+          class="md:w-1/3 lg:1/4 md:order-2 p-2 bg-gray-800 md:my-4 md:pr-6 md:rounded-xl"
         >
-          <h1 class="text-neon-light neon text-3xl text-center py-2">
+          <h1 class="text-neon-light neon text-3xl text-center py-2 flash">
             Rob Hall
           </h1>
+
           <img
             src="~/assets/images/IMG_20210727_155113873.jpg"
             alt=""
-            class="rounded-3xl max-h-20 float-left pr-1"
+            class="rounded-3xl max-h-28 float-left pr-2"
           />
-          <p class="text-white text-justify px-1">
+          <p class="text-neon-light neon text-xl text-justify py-2">
             I'm a front end web dev and designer from the UK. I enjoy building
-            intuitive and attractive UIs and layouts. I've been coding since I
-            was in school and My goal is to make the internet more functional
-            and better looking. I am also passionate about web accessibility and
-            ensuring that as many people as possible can enjoy your website.
+            intuitive and attractive UIs and layouts.
+          </p>
+
+          <p class="text-white text-justify px-1">
+            I've been coding since I was in school and My goal is to make the
+            internet more functional and better looking. I am also passionate
+            about web accessibility and ensuring that as many people as possible
+            can enjoy your website.
           </p>
           <p class="text-white text-justify px-1 py-3">
             I'm an organised and professional worker who is used to managing my
