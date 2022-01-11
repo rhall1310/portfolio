@@ -8,6 +8,10 @@ body {
   font-family: DejaVu Sans Mono, monospace;
 }
 
+p {
+  font-size: 1.1rem;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 0.5em;

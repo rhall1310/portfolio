@@ -1,72 +1,74 @@
 <template>
   <div class="bg-gray-900">
     <Header class="fixed top-0 w-screen h-12" />
-    <div class="relative">
-      <div id="info" class="flex flex-col pt-12 md:flex-row md:px-1 lg:px-20">
-        <div
-          id="sidebar-about"
-          class="md:w-1/3 lg:1/4 md:order-2 p-2 bg-gray-800 md:my-4 md:pr-6 md:rounded-xl"
-        >
-          <h1 class="text-neon-light neon text-3xl text-center py-2 flash">
-            Rob Hall
-          </h1>
 
-          <img
-            src="~/assets/images/IMG_20210727_155113873.jpg"
-            alt=""
-            class="rounded-3xl max-h-28 float-left pr-2"
-          />
-          <p class="text-neon-light neon text-xl text-justify py-2">
-            I'm a front end web dev and designer from the UK. I enjoy building
-            intuitive and attractive UIs and layouts.
-          </p>
+    <main
+      id="info"
+      class="flex flex-col pt-12 md:flex-row md:px-1 lg:px-20 max-w-screen-2xl mx-auto"
+    >
+      <div
+        id="sidebar-about"
+        class="md:w-1/3 lg:1/4 md:order-2 p-2 bg-gray-800 md:my-4 md:pr-6 md:rounded-xl"
+      >
+        <h1 class="text-neon-light neon text-3xl text-center py-2 flash">
+          Rob Hall
+        </h1>
 
-          <p class="text-white text-justify px-1">
-            I've been coding since I was in school and My goal is to make the
-            internet more functional and better looking. I am also passionate
-            about web accessibility and ensuring that as many people as possible
-            can enjoy your website.
-          </p>
-          <p class="text-white text-justify px-1 py-3">
-            I'm an organised and professional worker who is used to managing my
-            own projects and delivering to deadlines
-          </p>
-        </div>
+        <img
+          src="~/assets/images/IMG_20210727_155113873.jpg"
+          alt=""
+          class="rounded-3xl max-h-28 float-left pr-2"
+        />
+        <p class="text-neon-light neon text-xl py-2">
+          I'm a front end web dev and designer from the UK. I enjoy building
+          intuitive and attractive UIs and layouts.
+        </p>
 
-        <div id="main-about" class="p-2 md:w-2/3 lg:3/4">
-          <h2 class="neon text-neon-light underline font-bold text-2xl py-2">
-            Skillset
-          </h2>
-          <p class="text-white text-justify py-2">
-            I am experienced in the core front end languages of HTML, CSS and
-            Javascript. I have also worked extensively with Vue, Svelte and
-            various CSS frameworks including Bootstrap and Tailwind.
-          </p>
-
-          <div class="neon-box border-2 my-2"></div>
-          <div
-            class="flex gap-4 py-2 text-center flex-wrap justify-between px-3"
-          >
-            <Icons
-              v-for="skill in skillset"
-              :key="skill"
-              :icon="skill"
-              class="neon text-neon-light text-5xl hover:text-pink-50"
-            />
-          </div>
-          <div class="neon-box border-2 my-2"></div>
-
-          <p class="text-white pt-4 text-justify">
-            I also have extensive experience with creating Wordpress websites,
-            including using the ecommerce plugin WooCommerce to create
-            storefronts. I'm always looking to learn more and further develop my
-            skills.
-          </p>
-        </div>
+        <p class="text-white px-1">
+          I've been coding since I was in school and My goal is to make the
+          internet more functional and better looking. I am also passionate
+          about web accessibility and ensuring that as many people as possible
+          can enjoy your website.
+        </p>
+        <p class="text-white px-1 py-3">
+          I'm an organised and professional worker who is used to managing my
+          own projects and delivering to deadlines
+        </p>
       </div>
+
+      <div id="main-about" class="p-2 md:w-2/3 lg:3/4">
+        <h2 class="neon text-neon-light underline font-bold text-2xl py-2">
+          Skillset
+        </h2>
+        <p class="text-white py-2">
+          I am well versed in the core front end languages of HTML, CSS and
+          Javascript. I have also worked extensively with other technologies
+          such as Vue, Svelte and various CSS frameworks including Bootstrap and
+          Tailwind.
+        </p>
+
+        <div class="neon-box border-2 my-2"></div>
+        <div class="flex gap-4 py-2 text-center flex-wrap justify-between px-3">
+          <Icons
+            v-for="skill in skillset"
+            :key="skill"
+            :icon="skill"
+            class="neon text-neon-light text-5xl hover:text-pink-50"
+          />
+        </div>
+        <div class="neon-box border-2 my-2"></div>
+
+        <p class="text-white pt-4 text-justify">
+          I also have extensive experience with creating Wordpress websites,
+          including using the ecommerce plugin WooCommerce to create
+          storefronts. I'm always looking to learn more and further develop my
+          skills.
+        </p>
+      </div>
+    </main>
+    <section id="projects" class="max-w-screen-2xl mx-auto">
       <h2
         class="neon text-neon-light underline text-center font-bold text-2xl py-8"
-        id="projects"
       >
         Projects
       </h2>
@@ -82,11 +84,12 @@
           :icons="project.icons"
         />
       </div>
+    </section>
+    <section id="contact" class="m-w-screen-2xl mx-auto">
+      <Contact />
+    </section>
 
-      <Contact id="contact" />
-
-      <Footer />
-    </div>
+    <Footer />
   </div>
 </template>
 
