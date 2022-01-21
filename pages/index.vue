@@ -4,20 +4,18 @@
 
     <main
       id="info"
-      class="flex flex-col pt-12 md:flex-row md:px-1 lg:px-20 max-w-screen-2xl mx-auto"
+      class="flex flex-col pt-12 md:flex-row md:px-1 max-w-screen-2xl mx-auto"
     >
       <div
         id="sidebar-about"
-        class="md:w-1/3 lg:1/4 md:order-2 p-2 bg-gray-800 md:my-4 md:pr-6 md:rounded-xl"
+        class="md:w-1/3 lg:1/4 md:order-2 p-2 bg-gray-800 md:my-4 md:rounded-xl"
       >
-        <h1 class="text-neon-light neon text-3xl text-center py-2 flash">
-          Rob Hall
-        </h1>
+        <h1 class="text-neon-light neon text-4xl text-center py-2">Rob Hall</h1>
 
         <img
           src="~/assets/images/IMG_20210727_155113873.jpg"
           alt=""
-          class="rounded-3xl max-h-28 float-left pr-2"
+          class="rounded-3xl max-h-28 float-left border-2 border-neon-light mr-2"
         />
         <p class="text-neon-light neon text-xl py-2">
           I'm a front end web dev and designer from the UK. I enjoy building
@@ -36,7 +34,7 @@
         </p>
       </div>
 
-      <div id="main-about" class="p-2 md:w-2/3 lg:3/4">
+      <div id="main-about" class="p-2 md:w-2/3 lg:3/4 md:mr-6">
         <h2 class="neon text-neon-light underline font-bold text-2xl py-2">
           Skillset
         </h2>
@@ -59,8 +57,8 @@
         <div class="neon-box border-2 my-2"></div>
 
         <p class="text-white pt-4 text-justify">
-          I also have extensive experience with creating Wordpress websites,
-          including using the ecommerce plugin WooCommerce to create
+          I also have extensive experience with creating Wordpress websites and
+          themes. This includes using the ecommerce plugin WooCommerce to create
           storefronts. I'm always looking to learn more and further develop my
           skills.
         </p>
@@ -72,7 +70,7 @@
       >
         Projects
       </h2>
-      <div class="flex flex-wrap flex-row mb-5 justify-center md:gap-5">
+      <div class="flex flex-wrap flex-row mb-5 justify-between">
         <Project
           v-for="project in projects"
           :key="project.index"

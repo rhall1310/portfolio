@@ -1,6 +1,8 @@
 <template>
-  <div class="flex flex-col text-white md:w-1/4 mt-2">
-    <div class="border-neon-dark border-2 p-1 rounded-lg bg-gray-800 mx-2 mb-2">
+  <div class="flex flex-col text-white md:w-1/3 mt-2">
+    <div
+      class="border-neon-dark border-2 p-1 rounded-lg bg-gray-800 mx-2 mb-2 hover:border-neon-light"
+    >
       <a target="blank" :href="link">
         <div class="grid grid-cols-4 grid-rows-5 mx-2 pb-1">
           <h2
