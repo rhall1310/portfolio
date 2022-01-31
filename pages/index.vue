@@ -118,6 +118,14 @@ export default {
           ],
         },
         {
+          title: 'Sketch',
+          text: 'A streamlined sketch/drawing app made with the HTML5 canvas element and vanilla Javascript',
+          img: 'drawing.png',
+          code: 'https://rhall1310.github.io/Drawing/',
+          link: 'https://rhall1310.github.io/Drawing/',
+          icons: ['fab fa-html5', 'fab fa-css3', 'fab fa-js'],
+        },
+        {
           title: 'CSS Only',
           text: 'A simple static site built with CSS and HTML only to demonstrate responsive design principles',
           img: 'css_only.png',
