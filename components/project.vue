@@ -12,7 +12,7 @@
           </h2>
           <img
             :src="require(`~/assets/images/${this.img}`)"
-            class="row-start-1 row-span-5 col-start-1 col-span-5"
+            class="row-start-1 row-span-5 col-start-1 col-span-5 w-full"
           />
         </div>
       </a>

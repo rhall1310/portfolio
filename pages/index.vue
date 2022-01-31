@@ -58,9 +58,9 @@
 
         <p class="text-white pt-4 text-justify">
           I also have extensive experience with creating Wordpress websites and
-          themes. This includes using the ecommerce plugin WooCommerce to create
-          storefronts. I'm always looking to learn more and further develop my
-          skills.
+          custom themes. This includes using the ecommerce plugin WooCommerce to
+          create successful storefronts. I'm always looking to learn more and
+          further develop my skills.
         </p>
       </div>
     </main>
