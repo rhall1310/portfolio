@@ -121,7 +121,7 @@ export default {
           title: 'Sketch',
           text: 'A streamlined sketch/drawing app made with the HTML5 canvas element and vanilla Javascript',
           img: 'drawing.png',
-          code: 'https://rhall1310.github.io/Drawing/',
+          code: 'https://github.com/rhall1310/Drawing/',
           link: 'https://rhall1310.github.io/Drawing/',
           icons: ['fab fa-html5', 'fab fa-css3', 'fab fa-js'],
         },
