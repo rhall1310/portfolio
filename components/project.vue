@@ -1,12 +1,12 @@
 <template>
   <div class="flex flex-col text-white md:w-1/3 mt-2">
     <div
-      class="border-neon-dark border-2 p-1 rounded-lg bg-gray-800 mx-2 mb-2 hover:border-neon-light"
+      class="border-neon-dark border-2 p-1 rounded-lg bg-gray-800 mx-2 mb-2 hover:border-neon-light group"
     >
       <a target="blank" :href="link">
         <div class="grid grid-cols-4 grid-rows-5 mx-2 pb-1">
           <h2
-            class="neon text-neon-light text-lg font-bold row-start-1 h-8 col-start-1 col-span-5 z-10 bg-gray-900 bg-opacity-90 text-center"
+            class="neon text-neon-light text-lg font-bold row-start-1 h-8 col-start-1 col-span-5 z-10 bg-gray-900 bg-opacity-90 text-center group-hover:underline"
           >
             {{ title }}
           </h2>
