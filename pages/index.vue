@@ -133,6 +133,14 @@ export default {
           link: 'https://rhall1310.github.io/CSS-Only/',
           icons: ['fab fa-html5', 'fab fa-css3'],
         },
+        {
+          title: 'An-UK',
+          text: 'A site built for a small online business using Wordpress and WooCommerce',
+          img: 'an_uk.png',
+          code: 'https://github.com/rhall1310',
+          link: 'https://an-uk.com/',
+          icons: ['fab fa-wordpress', 'fab fa-php', 'fab fa-css3'],
+        },
       ],
       skillset: [
         'fab fa-html5',
