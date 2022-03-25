@@ -36,7 +36,7 @@
 
       <div id="main-about" class="p-2 md:w-2/3 lg:3/4 md:mr-6">
         <h2 class="neon text-neon-light underline font-bold text-2xl py-2">
-          Skillset
+          Skills
         </h2>
         <p class="text-white py-2">
           I am well versed in the core front end languages of HTML, CSS and
