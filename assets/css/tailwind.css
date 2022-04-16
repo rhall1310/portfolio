@@ -120,3 +120,7 @@
 .neon-glow-box:focus::after {
   opacity: 1;
 }
+
+.project-img {
+  aspect-ratio: 16/9;
+}
