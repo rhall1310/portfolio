@@ -12,11 +12,6 @@
       >
         <h1 class="text-neon-light neon text-4xl text-center py-2">Rob Hall</h1>
 
-        <img
-          src="~/assets/images/IMG_20210727_155113873.jpg"
-          alt=""
-          class="rounded-3xl max-h-28 float-left border-2 border-neon-light mr-2"
-        />
         <p class="text-neon-light neon text-xl py-2">
           I'm a front end web dev and designer from the UK. I enjoy building
           intuitive and attractive UIs and layouts.
