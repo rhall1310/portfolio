@@ -59,10 +59,9 @@
         </p>
       </div>
     </main>
-    <section id="projects" class="max-w-screen-2xl mx-auto">
-      <h2
-        class="neon text-neon-light underline text-center font-bold text-2xl py-8"
-      >
+    <section class="max-w-screen-2xl mx-auto">
+      <div id="projects" class="py-8"></div>
+      <h2 class="neon text-neon-light underline text-center font-bold text-2xl">
         Projects
       </h2>
       <div class="flex flex-wrap flex-row mb-5 justify-between">
@@ -78,7 +77,7 @@
         />
       </div>
     </section>
-    <section id="contact" class="m-w-screen-2xl mx-auto">
+    <section id="contact" class="m-w-screen-2xl mx-auto py-10">
       <Contact />
     </section>
 
