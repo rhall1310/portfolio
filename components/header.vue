@@ -2,7 +2,7 @@
   <nav
     class="flex flex-row py-2 justify-evenly border-b-4 neon-box bg-gray-900 z-50"
   >
-    <NeonLink text="Info" link="#info" />
+    <NeonLink text="Rob Hall" link="#info" />
     <NeonLink text="Projects" link="#projects" />
     <NeonLink
       text="Github"

@@ -4,19 +4,16 @@
 
     <main
       id="info"
-      class="flex flex-col pt-12 md:flex-row md:px-1 max-w-screen-2xl mx-auto"
+      class="flex flex-col pt-24 md:flex-row md:px-1 max-w-screen-xl mx-auto"
     >
       <div
         id="sidebar-about"
-        class="md:w-1/3 lg:1/4 md:order-2 p-2 bg-gray-800 md:my-4 md:rounded-xl"
+        class="md:w-1/3 lg:1/4 md:order-2 p-2 bg-gray-800 md:my-4 md:rounded-xl text-justify"
       >
-        <h1 class="text-neon-light neon text-4xl text-center py-2">Rob Hall</h1>
+        <h1 class="text-neon-light neon text-5xl text-center py-2 font-bold">
+          Rob Hall
+        </h1>
 
-        <img
-          src="~/assets/images/IMG_20210727_155113873.jpg"
-          alt=""
-          class="rounded-3xl max-h-28 float-left border-2 border-neon-light mr-2"
-        />
         <p class="text-neon-light neon text-xl py-2">
           I'm a front end web dev and designer from the UK. I enjoy building
           intuitive and attractive UIs and layouts.
@@ -70,7 +67,9 @@
       >
         Projects
       </h2>
-      <div class="flex flex-wrap flex-row mb-5 justify-between">
+      <div
+        class="flex flex-wrap flex-row mb-5 justify-between max-w-screen-xl mx-auto"
+      >
         <Project
           v-for="project in projects"
           :key="project.index"
@@ -83,7 +82,7 @@
         />
       </div>
     </section>
-    <section id="contact" class="m-w-screen-2xl mx-auto">
+    <section id="contact" class="m-w-screen-2xl mx-auto my-16">
       <Contact />
     </section>
 
