@@ -7,9 +7,10 @@
         <p class="inline text-white">opyright Rob Hall {{ currentYear }}</p></i
       >
     </p>
-    <a href="#info" class="font-semibold self-center mr-4 underline"
-      >Back to top</a
-    >
+    <a href="#info" class="font-semibold self-center mr-4 underline">
+      <p class="hidden md:block">Back to top</p>
+      <Icons icon="fas fa-arrow-up underline" class="md:hidden" />
+    </a>
   </footer>
 </template>
 
