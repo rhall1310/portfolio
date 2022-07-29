@@ -32,7 +32,7 @@
       </div>
 
       <div id="main-about" class="p-2 md:w-2/3 lg:3/4 md:mr-6">
-        <h2 class="neon text-neon-light underline font-bold text-2xl py-2">
+        <h2 class="neon text-neon-light underline font-bold text-3xl py-2">
           Skills
         </h2>
         <p class="text-white py-2">
@@ -63,7 +63,7 @@
     </main>
     <section class="max-w-screen-2xl mx-auto">
       <div id="projects" class="py-8"></div>
-      <h2 class="neon text-neon-light underline text-center font-bold text-2xl">
+      <h2 class="neon text-neon-light underline text-center font-bold text-3xl">
         Projects
       </h2>
       <div
