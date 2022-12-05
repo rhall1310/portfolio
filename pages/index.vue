@@ -123,22 +123,6 @@ export default {
           link: 'https://rhall1310.github.io/Drawing/',
           icons: ['fab fa-html5', 'fab fa-css3', 'fab fa-js'],
         },
-        {
-          title: 'CSS Only',
-          text: 'A simple static site built with CSS and HTML only to demonstrate responsive design principles',
-          img: 'css_only.png',
-          code: 'https://github.com/rhall1310/CSS-Only',
-          link: 'https://rhall1310.github.io/CSS-Only/',
-          icons: ['fab fa-html5', 'fab fa-css3'],
-        },
-        {
-          title: 'An-UK',
-          text: 'A site built for a small online business using Wordpress and WooCommerce',
-          img: 'an_uk.png',
-          code: 'https://github.com/rhall1310',
-          link: 'https://an-uk.com/',
-          icons: ['fab fa-wordpress', 'fab fa-php', 'fab fa-css3'],
-        },
       ],
       skillset: [
         'fab fa-html5',
