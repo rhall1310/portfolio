@@ -104,10 +104,10 @@ export default {
         },
         {
           title: 'Pothole Reporter',
-          text: 'A pothole/highway issue reporting app made with Nuxt and styled with bootstrap',
+          text: 'A pothole/highway issue reporting app. The frontend is made with Nuxt and styled with bootstrap and communicates via rest API with a Django backend',
           img: 'pothole_reporter.png',
-          code: 'https://github.com/rhall1310/pothole-reporter',
-          link: 'https://pothole-reporter-rh1310-dev.netlify.app/',
+          code: 'https://github.com/rhall1310/issue-reporter-frontend',
+          link: 'https://report-rh1310-dev.netlify.app/',
           icons: [
             'fab fa-html5',
             'fab fa-js',
