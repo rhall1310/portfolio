@@ -131,6 +131,7 @@ export default {
         'fab fa-vuejs',
         'fab fa-bootstrap',
         'fab fa-wordpress',
+        'fab fa-python',
       ],
     }
   },
