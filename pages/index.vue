@@ -104,7 +104,7 @@ export default {
         },
         {
           title: 'Pothole Reporter',
-          text: 'A pothole/highway issue reporting app. The frontend is made with Nuxt and styled with bootstrap and communicates via rest API with a Django backend',
+          text: 'A pothole/highway issue reporting app. The frontend was made with Nuxt and styled with bootstrap. Django REST framework and Axios were used to build a REST API with a MYSQL database hosted on pythonanywhere to store submissions.',
           img: 'pothole_reporter.png',
           code: 'https://github.com/rhall1310/issue-reporter-frontend',
           link: 'https://report-rh1310-dev.netlify.app/',
