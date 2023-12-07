@@ -20,7 +20,7 @@
         </p>
 
         <p class="text-white px-1">
-          I've been coding since I was in school and My goal is to make the
+          I've been coding since I was in school and my goal is to make the
           internet more functional and better looking. I am also passionate
           about web accessibility and ensuring that as many people as possible
           can enjoy your website.
@@ -38,8 +38,8 @@
         <p class="text-white py-2">
           I am well versed in the core front end languages of HTML, CSS and
           Javascript. I have also worked extensively with other technologies
-          such as Vue, Svelte and various CSS frameworks including Bootstrap and
-          Tailwind.
+          such as Vue, Svelte, Django and various CSS frameworks including
+          Bootstrap and Tailwind.
         </p>
 
         <div class="neon-box border-2 my-2"></div>
