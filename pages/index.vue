@@ -15,8 +15,9 @@
         </h1>
 
         <p class="text-neon-light neon text-xl py-2">
-          I'm a front end web dev and designer from the UK. I enjoy building
-          intuitive and attractive UIs and layouts.
+          I'm a web developer, designer and data specialist from the UK. I enjoy
+          building intuitive and attractive UIs and layouts and helping people
+          get the most out of their data and systems.
         </p>
 
         <p class="text-white px-1">
